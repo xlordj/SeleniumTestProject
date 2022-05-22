@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-21T21:33:12 EDT" name="Suite" finished-at="2022-05-21T21:33:22 EDT" duration-ms="9400">
+  <suite started-at="2022-05-21T23:59:28 EDT" name="Suite" finished-at="2022-05-21T23:59:40 EDT" duration-ms="11887">
     <groups>
     </groups>
-    <test started-at="2022-05-21T21:33:12 EDT" name="Test" finished-at="2022-05-21T21:33:22 EDT" duration-ms="9400">
+    <test started-at="2022-05-21T23:59:28 EDT" name="Test" finished-at="2022-05-21T23:59:40 EDT" duration-ms="11887">
       <class name="pack.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pack.NewTest@5403f35f]" started-at="2022-05-21T21:33:12 EDT" name="beforeTest" finished-at="2022-05-21T21:33:15 EDT" duration-ms="2910" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pack.NewTest@32b260fa]" started-at="2022-05-21T23:59:28 EDT" name="beforeTest" finished-at="2022-05-21T23:59:34 EDT" duration-ms="6115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testEasy()[pri:0, instance:pack.NewTest@5403f35f]" started-at="2022-05-21T21:33:15 EDT" name="testEasy" finished-at="2022-05-21T21:33:20 EDT" duration-ms="5279" status="PASS">
+        <test-method signature="testEasy()[pri:0, instance:pack.NewTest@32b260fa]" started-at="2022-05-21T23:59:34 EDT" name="testEasy" finished-at="2022-05-21T23:59:39 EDT" duration-ms="5046" status="PASS">
           <reporter-output>
           </reporter-output>
           <attributes>
             <attribute name="test">
-              <![CDATA[HTUTO-35]]>
+              <![CDATA[LDB-372]]>
             </attribute> <!-- test -->
             <attribute name="requirement">
-              <![CDATA[HTUTO-34]]>
+              <![CDATA[LDB-372]]>
             </attribute> <!-- requirement -->
             <attribute name="labels">
               <![CDATA[]]>
             </attribute> <!-- labels -->
           </attributes>
         </test-method> <!-- testEasy -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack.NewTest@5403f35f]" started-at="2022-05-21T21:33:20 EDT" name="afterTest" finished-at="2022-05-21T21:33:22 EDT" duration-ms="1188" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack.NewTest@32b260fa]" started-at="2022-05-21T23:59:39 EDT" name="afterTest" finished-at="2022-05-21T23:59:40 EDT" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

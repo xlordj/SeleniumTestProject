@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.*;
 public class NewTest {		
     private WebDriver driver;		
 	@Test
-	@Xray (requirement = "HTUTO-34", test="HTUTO-35")
+	@Xray (requirement = "LDB-372", test="LDB-372")
 	public void testEasy() {	
 		driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();				 
