@@ -20,9 +20,8 @@ public class NewTest {
 	public void testEasy() {	
 		driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();				 
-		AssertJUnit.assertTrue(title.contains("lm")); 	
+		AssertJUnit.assertTrue(title.contains("Demo Guru99 Page")); 	
 		
-		assertEquals(title,"Demo Guru99 Page");
 	}	
 	
 	@Test
