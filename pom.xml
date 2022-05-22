@@ -33,7 +33,14 @@
             <artifactId>selenium-devtools</artifactId>
             <version>4.0.0-rc-1</version>
         </dependency>
-        
+         <!--===========================AJOUT DEPENDANCE XRAY-TESTNG============================================================--> 
+        <dependency>
+            <groupId>com.xpandit.xray</groupId>
+            <artifactId>xray-testng-extensions</artifactId>
+            <version>1.1.0</version>
+            <scope>test</scope>
+        </dependency>
+        <!--===================================================================================================================-->
 <dependency>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-clean-plugin</artifactId>
@@ -62,7 +69,12 @@
       <suiteXmlFiles>
           <suiteXmlFile>testng.xml </suiteXmlFile>
       </suiteXmlFiles>
-                  
+                   <properties>
+                        <property>
+                            <name>reporter</name>
+                            <value>org.testng.reporters.XMLReporter:generateTestResultAttributes=true,generateGroupsAttribute=true</value>
+                        </property>
+                    </properties>
      </configuration>
 </plugin>
 <plugin>
@@ -90,7 +102,8 @@
       </plugin>
 </plugins>                              
 </build>
-<repositories>
+<!--===============================AJOUT REPOSITORY POUR XRAY=========================================-->
+    <repositories>
         <repository>
             <id>xpandit</id>
             <name>xpand-releases</name>
@@ -100,5 +113,6 @@
             </releases>
         </repository>
     </repositories>
+<!--=================================================================================================-->
   
 </project>

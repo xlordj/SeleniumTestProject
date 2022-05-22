@@ -20,15 +20,16 @@ public class NewTest {
 	public void testEasy() {	
 		driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();				 
-		AssertJUnit.assertTrue(title.contains("Demo Guru99 Page")); 	
+		AssertJUnit.assertTrue(title.contains("lm")); 	
 		
+		assertEquals(title,"Demo Guru99 Page");
 	}	
 	
 	@Test
 	public void testThialy() {	
 		driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();				 
-		assertEquals(title,"Demo Guru99 Page");
+		assertEquals(title,"Demo Guru99 Pag");
 	}	
 	
 	@BeforeTest
