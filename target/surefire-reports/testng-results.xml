@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T18:37:06 EDT" name="Suite" finished-at="2022-05-24T18:37:57 EDT" duration-ms="51032">
+  <suite started-at="2022-05-24T18:43:19 EDT" name="Suite" finished-at="2022-05-24T18:43:33 EDT" duration-ms="14092">
     <groups>
     </groups>
-    <test started-at="2022-05-24T18:37:06 EDT" name="Test" finished-at="2022-05-24T18:37:57 EDT" duration-ms="51032">
+    <test started-at="2022-05-24T18:43:19 EDT" name="Test" finished-at="2022-05-24T18:43:33 EDT" duration-ms="14092">
       <class name="pack.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:37:06 EDT" name="beforeTest" finished-at="2022-05-24T18:37:49 EDT" duration-ms="42662" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:43:19 EDT" name="beforeTest" finished-at="2022-05-24T18:43:25 EDT" duration-ms="6063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testEasy()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:37:49 EDT" name="testEasy" finished-at="2022-05-24T18:37:54 EDT" duration-ms="4860" status="PASS">
+        <test-method signature="testEasy()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:43:25 EDT" name="testEasy" finished-at="2022-05-24T18:43:31 EDT" duration-ms="6318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method signature="testThialy()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:37:54 EDT" name="testThialy" finished-at="2022-05-24T18:37:56 EDT" duration-ms="1912" status="PASS">
+        <test-method signature="testThialy()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:43:31 EDT" name="testThialy" finished-at="2022-05-24T18:43:32 EDT" duration-ms="988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThialy -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:37:56 EDT" name="afterTest" finished-at="2022-05-24T18:37:57 EDT" duration-ms="1522" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack.NewTest@776b83cc]" started-at="2022-05-24T18:43:32 EDT" name="afterTest" finished-at="2022-05-24T18:43:33 EDT" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

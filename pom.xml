@@ -96,7 +96,7 @@
             <name>xpand-releases</name>
             <url>http://maven.xpand-it.com/artifactory/releases</url>
             <releases>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </releases>
         </repository>
     </repositories>
