@@ -1,4 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <properties>
+             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
+  
   <modelVersion>4.0.0</modelVersion>
   <groupId>WebdriverTest</groupId>
   <artifactId>WebdriverTest</artifactId>
@@ -65,40 +70,7 @@
                   
      </configuration>
 </plugin>
-<plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>3.2.0</version>
-        <executions>
-          <execution>
-            <id>copy-resources</id>
-            <!-- here the phase you need -->
-            <phase>validate</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${basedir}/target/extra-resources</outputDirectory>
-              <resources>          
-                <resource>
-                  <directory>src/non-packaged-resources</directory>
-                  <filtering>true</filtering>
-                </resource>
-              </resources>              
-            </configuration>            
-          </execution>
-        </executions>
-      </plugin>
+
 </plugins>                              
 </build>
-<repositories>
-        <repository>
-            <id>xpandit</id>
-            <name>xpand-releases</name>
-            <url>http://maven.xpand-it.com/artifactory/releases</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-        </repository>
-    </repositories>
-  
 </project>

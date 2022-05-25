@@ -1,13 +1,9 @@
 package pack;
 import org.testng.annotations.Test;
-
-
 import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
-
 import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.WebDriver;		
 import org.openqa.selenium.chrome.*;		
 		
